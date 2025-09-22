@@ -179,5 +179,6 @@ class VentanaPrincipal : AppCompatActivity() {
             .start()
         txtTituloTurno.animate().translationX(txtTituloTurno.width.toFloat()).setDuration(300).start()
     }
-
 }
+
+//ACA VAMOS

@@ -153,7 +153,8 @@ class VentanaPrincipal : AppCompatActivity() {
 
         videoView.setOnPreparedListener { mediaPlayer ->
             mediaPlayer.isLooping = true
-            mediaPlayer.setVolume(0f, 0f) // mediaPlayer.setVolume(1f, 1f)
+            //mediaPlayer.setVolume(0f, 0f) // mediaPlayer.setVolume(1f, 1f)
+            mediaPlayer.setVolume(1f, 1f) // mediaPlayer.setVolume(1f, 1f)
             videoView.start()
         }
     }
